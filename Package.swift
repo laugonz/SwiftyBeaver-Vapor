@@ -3,9 +3,6 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftyBeaverVapor",
-    platforms: [
-       .macOS(.v12)
-    ],
     products: [
         .library(name: "SwiftyBeaverVapor", targets: ["SwiftyBeaverVapor"])
     ],
